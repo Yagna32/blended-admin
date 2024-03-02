@@ -14,6 +14,7 @@ const ListProduct = () => {
 
   useEffect(()=>{
     fetchInfo();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
   const remove_product = async(id)=>{
