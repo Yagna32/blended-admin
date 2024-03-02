@@ -3,7 +3,7 @@ import './AddProduct.css'
 import upload_area from '../../assets/upload_area.svg'
 
 const AddProduct = () => {
-    const backendURL=import.meta.env.VITE_BACKEND_RENDER_URL;//import.meta.env.VITE_BACKEND_LOCAL_URL
+    const backendURL=import.meta.env.VITE_BACKEND_URL;//import.meta.env.VITE_BACKEND_LOCAL_URL
     const [image,setImage] = useState([]);
     const [productDetails,setProductDetails] = useState({
         name:"",
